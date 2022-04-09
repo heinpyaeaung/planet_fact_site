@@ -7,10 +7,13 @@ import Neptune from '../views/neptune'
 import Saturn from '../views/saturn'
 import Uranus from '../views/uranus'
 import Venus from '../views/venus'
+import NotFound from '../views/notfound'
 
 const routes = [
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   {
-    path: '/home',
+    path: '/',
+    redirect: '/earth',
     name: 'Home',
     component: Home
   },
