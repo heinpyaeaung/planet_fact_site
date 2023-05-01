@@ -14,6 +14,6 @@ npm run serve
 ```
 npm run build
 ```
-
+I made this project to pratice my vue router skill
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
